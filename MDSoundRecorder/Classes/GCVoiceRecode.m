@@ -202,17 +202,19 @@ void convertToLittleEndian(unsigned int *data, int len)
 }
 
 -(void)stop:(void(^)(void))complete{
-    [self endRecode];
-    dispatch_async(savequeue, ^{
-        NSURL* u = [self.save stopSave:(int)self.sampleRate bitRate:self.bitRate];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.result(u);
-            self->isStop = true;
-            if(complete){
-                complete();
-            }
+    if (AVAudioSession.sharedInstance.recordPermission == AVAudioSessionRecordPermissionGranted){
+        [self endRecode];
+        dispatch_async(savequeue, ^{
+            NSURL* u = [self.save stopSave:(int)self.sampleRate bitRate:self.bitRate];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.result(u);
+                self->isStop = true;
+                if(complete){
+                    complete();
+                }
+            });
         });
-    });
+    }
 }
 - (void)cancel{
     [self endRecode];
