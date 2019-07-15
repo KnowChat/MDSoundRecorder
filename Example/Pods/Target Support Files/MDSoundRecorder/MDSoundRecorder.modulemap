@@ -1,0 +1,6 @@
+framework module MDSoundRecorder {
+  umbrella header "MDSoundRecorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

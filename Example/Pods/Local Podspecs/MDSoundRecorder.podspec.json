@@ -1,0 +1,28 @@
+{
+  "name": "MDSoundRecorder",
+  "version": "0.1.0",
+  "summary": "A short description of MDSoundRecorder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KnowChat/MDSounderRecorder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinhaofrancis": "1833918721@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/KnowChat/MDSounderRecorder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MDSoundRecorder/Classes/**/*",
+  "vendored_libraries": [
+    "MDSoundRecorder/lib/libopencore-amrnb.a",
+    "MDSoundRecorder/lib/libopencore-amrwb.a",
+    "MDSoundRecorder/lib/libmp3lame.a"
+  ],
+  "public_header_files": "MDSoundRecorder/Classes/**/*.h"
+}

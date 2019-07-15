@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MDSoundRecorder_Example' do
+  pod 'MDSoundRecorder', :path => '../'
+
+  target 'MDSoundRecorder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

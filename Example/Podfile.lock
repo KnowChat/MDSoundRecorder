@@ -1,0 +1,16 @@
+PODS:
+  - MDSoundRecorder (0.1.0)
+
+DEPENDENCIES:
+  - MDSoundRecorder (from `../`)
+
+EXTERNAL SOURCES:
+  MDSoundRecorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MDSoundRecorder: 61888d9c77bcee664ea607286640a2e7507e815e
+
+PODFILE CHECKSUM: aae641f315e2e788a1fd0142711dad409efcdfae
+
+COCOAPODS: 1.7.4
