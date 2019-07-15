@@ -20,7 +20,7 @@
   },
   "source_files": "MDSoundRecorder/Classes/**/*",
   "pod_target_xcconfig": {
-    "VALID_ARCHS": "arm64 armv7 armv7s"
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
   },
   "vendored_libraries": [
     "MDSoundRecorder/lib/libopencore-amrnb.a",

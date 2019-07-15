@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MDSoundRecorder: c415db77bb4d30ee820fd3003c17bdf0ea197846
+  MDSoundRecorder: dfa505284d20fdfff69d75e943c2e42f80de514d
 
 PODFILE CHECKSUM: aae641f315e2e788a1fd0142711dad409efcdfae
 
