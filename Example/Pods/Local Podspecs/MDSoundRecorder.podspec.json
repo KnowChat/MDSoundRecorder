@@ -19,6 +19,9 @@
     "ios": "8.0"
   },
   "source_files": "MDSoundRecorder/Classes/**/*",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "arm64 armv7 armv7s"
+  },
   "vendored_libraries": [
     "MDSoundRecorder/lib/libopencore-amrnb.a",
     "MDSoundRecorder/lib/libopencore-amrwb.a",

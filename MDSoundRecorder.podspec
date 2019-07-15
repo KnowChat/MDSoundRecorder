@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MDSoundRecorder' => ['MDSoundRecorder/Assets/*.png']
   # }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s' }
   s.vendored_libraries = 'MDSoundRecorder/lib/libopencore-amrnb.a','MDSoundRecorder/lib/libopencore-amrwb.a','MDSoundRecorder/lib/libmp3lame.a'
    s.public_header_files = 'MDSoundRecorder/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
