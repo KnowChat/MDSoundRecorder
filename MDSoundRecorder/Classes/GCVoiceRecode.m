@@ -269,21 +269,21 @@ void convertToLittleEndian(unsigned int *data, int len)
 
 @end
 
-//@implementation GCAMRSave
-//-(NSURL*)stopSave:(int)sampleRate bitRate:(int)br{
-//    [self.file closeFile];
-//    self.file = [NSFileHandle fileHandleForWritingAtPath:self.path.path];
-//    [self.file seekToFileOffset:4];
-//    uint32_t dl = self.len;
-//    uint32_t sum = self.len + 40;
-//    NSData* data = [[NSData alloc] initWithBytes:&sum length:4];
-//    data = [[NSData alloc] initWithBytes:&dl length:4];
-//    [self.file seekToFileOffset:40];
-//    [self.file writeData:data];
-//    [self.file closeFile];
-//    NSString* target = [self.path.path stringByAppendingString:@".amr"];
-//    [VoiceConverter wavToAmr:self.path.path amrSavePath:target bitRate:br];
-//    self.path = [NSURL URLWithString: target];
-//    return self.path;
-//}
-//@end
+@implementation GCAMRSave
+-(NSURL*)stopSave:(int)sampleRate bitRate:(int)br{
+    [self.file closeFile];
+    self.file = [NSFileHandle fileHandleForWritingAtPath:self.path.path];
+    [self.file seekToFileOffset:4];
+    uint32_t dl = self.len;
+    uint32_t sum = self.len + 40;
+    NSData* data = [[NSData alloc] initWithBytes:&sum length:4];
+    data = [[NSData alloc] initWithBytes:&dl length:4];
+    [self.file seekToFileOffset:40];
+    [self.file writeData:data];
+    [self.file closeFile];
+    NSString* target = [self.path.path stringByAppendingString:@".amr"];
+    [VoiceConverter wavToAmr:self.path.path amrSavePath:target bitRate:br];
+    self.path = [NSURL URLWithString: target];
+    return self.path;
+}
+@end

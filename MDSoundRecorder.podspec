@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MDSoundRecorder/Classes/**/*'
-  
+ libraries = 'c++', 'stdc++', 'z'
   # s.resource_bundles = {
   #   'MDSoundRecorder' => ['MDSoundRecorder/Assets/*.png']
   # }

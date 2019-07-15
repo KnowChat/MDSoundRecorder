@@ -24,6 +24,6 @@
 @interface GCVoiceSave : NSObject<SoundSave>
 
 @end
-//@interface GCAMRSave : GCVoiceSave
-//
-//@end
+@interface GCAMRSave : GCVoiceSave
+
+@end
