@@ -33,9 +33,19 @@
                                     <action selector="start:" destination="whP-gf-Uak" eventType="touchDown" id="Yrk-xx-XsC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBh-bq-N8Y">
+                                <rect key="frame" x="172.5" y="211" width="30" height="30"/>
+                                <state key="normal" title="amr"/>
+                                <connections>
+                                    <action selector="amrClose:" destination="whP-gf-Uak" eventType="touchUpInside" id="EoO-Xe-f1G"/>
+                                    <action selector="amrStart:" destination="whP-gf-Uak" eventType="touchDown" id="ROl-MR-izY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XBh-bq-N8Y" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="GMP-fI-5zy"/>
+                            <constraint firstItem="XBh-bq-N8Y" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="191" id="MXP-0t-pGH"/>
                             <constraint firstItem="pd1-aD-Zcf" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="mxO-Gw-njF"/>
                             <constraint firstItem="pd1-aD-Zcf" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="wna-RM-8Fd"/>
                         </constraints>

@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D5F13557C7D24F7BE9E5A92556DFDF /* MDSoundRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D2A2D28306C0A8B806446EDAB0EB6A /* MDSoundRecorder-dummy.m */; };
-		0B12580EF1A071483DFFB36BCBB778C5 /* MDSoundRecorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D814007D59C49E5A8DF9EB9434D05919 /* MDSoundRecorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		154CD7ACB46406E031C7A143BD92D612 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620A9D72971873EE0161249AF1D47BF /* VoiceConverter.mm */; };
+		0720918544BEA4181CC8AB170F92D4A2 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = A0BAE2F66F2B133ADF19A39634581C91 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1697BC70F3DE2525F84E0F461D272B09 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB24F3B49F079D2FB44FC28BCCD0421 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B184AAC967EDC819C987C699D6202D3 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D725D006442983B49C8DC367753FDD4 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25589EDD6EBC106E6A50928DD730EC48 /* WCAMRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AC294B6B9EED18AC1921D8881A9EA7 /* WCAMRPlayer.m */; };
 		25BE47C7D63D04B5877BA88D26AC2026 /* Pods-MDSoundRecorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B1985806E076062E69DE28DD8AA595 /* Pods-MDSoundRecorder_Example-dummy.m */; };
+		26C1118B35FB3643E8538B5B3B7C86D4 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FEC415756D773508EB40CAA422CD1E4 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291D72B5F24CA4BFC3102AFDF25A9E1C /* LameTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CFD67ABECE1570E47431E411262070 /* LameTransformTool.m */; };
 		2A599C6025FE460A1063F9BAC0F5D948 /* Pods-MDSoundRecorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FB83D46BB883C7BDDBCF20A40C1544 /* Pods-MDSoundRecorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38D81AE1E5283072291AB4362A88DD0F /* GCProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634A0B49BEA605F0EBA5D23EB56D46E /* GCProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E39571500F858954FD33C6A33B733E4 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A90DFC0B68682FC78E9F42E6946712 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FF160E8B5413CB5F25CC0C1E0BD4F68 /* GCVoiceRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = A682F582A69E1E19CD3565330558213C /* GCVoiceRecode.m */; };
+		2D95F4CA1ACCF19436CF507795EB3860 /* GCProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BEB917450B8DC280D25E6CCC11D40F /* GCProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383353BBBBDCE1128820131A7B05565D /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CC1AB82A292D28F6AA27BD5D6A2105 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A28F89902E6B89152195233264E73B4 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = AA260580ACCF6915896937CC9B60A25E /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FFB973FA0D31643A1B56355A4EF5F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		67CCA91D7EE8B9B3A99D68A1E9DF94DE /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 840536FA7CA97887AA92059F59ED0AF7 /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75A094DE59ADA2A122CA1CAF251FC85F /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F42EA4C6A5CD199CB16DD3AE994609B4 /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BB0E9EE47EA7DF611DF2A564AFBBCE /* MDSoundRecorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30109A4B5838F904052AE00DCD3A1C69 /* MDSoundRecorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAE2EC97EA144D62E2DE09AF50524E6 /* GCVoiceRecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF71CA5E5CCB8909796C90717C2753D /* GCVoiceRecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		814F7C07ACCEFD1BB2B242DB8FF864B9 /* Pods-MDSoundRecorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B92F0796D571B0259501A63E85ED8C9 /* Pods-MDSoundRecorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87C9DD08242BFDF505556C49EAE438F2 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA65F4E6FD1A1D1440B42EF611CD595 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89ED55CC76A99013FCA2B3DD14B591DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		92FB98D0A6C87547A67496EB3F713A25 /* Pods-MDSoundRecorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD60350FFB71BAB79CFB130ABC9B52A6 /* Pods-MDSoundRecorder_Tests-dummy.m */; };
-		97A5110F98035F2EE5D499E2D163181F /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5194B9F56047A26BB5085C245864E915 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A72485EAB06302BA4E703FF9B554958 /* LameTransformTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5116FBC53683F269034B10EB82A10D /* LameTransformTool.m */; };
-		C7661EA8B35D3D8739CEFDB2378C82E6 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 035A07DA0D60770CADDBA0864FF4A04E /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC060BF1CC7A8FCD53F9DEA38CBC0410 /* GCVoiceRecode.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5BA556F7886F5095C0A7E146876945 /* GCVoiceRecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD81F92AACA3E1CC91D6BE49A00DE1D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E1F783D1F565EE9E7FEBF1D59B86EEE4 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C10B0F2CEBEA55C9341545C1AB5064 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F216FE6D581031E5899066E8B4CAAACA /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = A51383F476AA74CFAEB6181CE76F574D /* amrFileCodec.mm */; };
-		F470BCAEF1D6C52491030954C9A6884E /* LameTransformTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AB8E34947B9D5AC9D450F0CA06E5C3 /* LameTransformTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9809B1FB0376A27B62B972FB90ABABDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B07B940D3388B168BC9F63AFF35C821C /* MDSoundRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D0D5C684235D57920559E13DBF756C /* MDSoundRecorder-dummy.m */; };
+		B201ACB6B4F211FC61A71C877EB6C6E7 /* LameTransformTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD6E99F53A41A6B0AD7745F15BA5A08 /* LameTransformTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE1421D2EBAA7DE75AD700ADE76F3E7 /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FA5E8730EB39DFFDAF645690753D4C /* VoiceConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD629898C025347CB57A6E9AFDAFEE51 /* WCAMRPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 798011ED0FD9970412684CD8B9D07CDE /* WCAMRPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DA7B5F03938A758DE913FE0A441DB0 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 003D0726A70D65BFE333F30D1F95C185 /* VoiceConverter.mm */; };
+		F604E6329AAA4B68781F152922C6A4AA /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1465C3E4C173B4E056A344377FC7259 /* amrFileCodec.mm */; };
+		FB4402D062B881180E2BC1037F0B63DE /* GCVoiceRecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F882F6B521A812250962CA5B883C7A9 /* GCVoiceRecode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,54 +52,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035A07DA0D60770CADDBA0864FF4A04E /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = MDSoundRecorder/Classes/dec_if.h; sourceTree = "<group>"; };
+		003D0726A70D65BFE333F30D1F95C185 /* VoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = VoiceConverter.mm; path = MDSoundRecorder/Classes/VoiceConverter.mm; sourceTree = "<group>"; };
+		02FA5E8730EB39DFFDAF645690753D4C /* VoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoiceConverter.h; path = MDSoundRecorder/Classes/VoiceConverter.h; sourceTree = "<group>"; };
 		03E6DB05A5A197563CABE58B66D27BC1 /* Pods_MDSoundRecorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MDSoundRecorder_Example.framework; path = "Pods-MDSoundRecorder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AC294B6B9EED18AC1921D8881A9EA7 /* WCAMRPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WCAMRPlayer.m; path = MDSoundRecorder/Classes/WCAMRPlayer.m; sourceTree = "<group>"; };
+		0900DB77A54B71259467F4AB9D83C358 /* MDSoundRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDSoundRecorder.xcconfig; sourceTree = "<group>"; };
 		0E3DC453EB0B8CDC70D33EC5F536C30F /* Pods-MDSoundRecorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDSoundRecorder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1B09070B482BCBAB10BF2BFC76BCDAE5 /* Pods_MDSoundRecorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MDSoundRecorder_Tests.framework; path = "Pods-MDSoundRecorder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C99381D2A7354FF5E92950CD34151F2 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "MDSoundRecorder/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
-		27004A87FA092E95BEA16293F1DC6949 /* MDSoundRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDSoundRecorder-Info.plist"; sourceTree = "<group>"; };
-		2A7B5F954CAD3023424A0836B389F7F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2F5116FBC53683F269034B10EB82A10D /* LameTransformTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LameTransformTool.m; path = MDSoundRecorder/Classes/LameTransformTool.m; sourceTree = "<group>"; };
+		22886C689D777A14EAC237BA1BC4524E /* MDSoundRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDSoundRecorder-Info.plist"; sourceTree = "<group>"; };
+		261214A76700B2BFE94D2A34FDB416C2 /* MDSoundRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDSoundRecorder.modulemap; sourceTree = "<group>"; };
+		2DF71CA5E5CCB8909796C90717C2753D /* GCVoiceRecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCVoiceRecode.h; path = MDSoundRecorder/Classes/GCVoiceRecode.h; sourceTree = "<group>"; };
+		2F882F6B521A812250962CA5B883C7A9 /* GCVoiceRecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCVoiceRecode.m; path = MDSoundRecorder/Classes/GCVoiceRecode.m; sourceTree = "<group>"; };
+		30109A4B5838F904052AE00DCD3A1C69 /* MDSoundRecorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDSoundRecorder-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3212ACA9A51C707C6882D8795A401E88 /* Pods-MDSoundRecorder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MDSoundRecorder_Example.modulemap"; sourceTree = "<group>"; };
-		4B6A3D6C31D88AE48D58FC0F628710D4 /* MDSoundRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDSoundRecorder.xcconfig; sourceTree = "<group>"; };
+		34D0D5C684235D57920559E13DBF756C /* MDSoundRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDSoundRecorder-dummy.m"; sourceTree = "<group>"; };
+		393F045F5B56314998B1EA429DEEA194 /* MDSoundRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDSoundRecorder-prefix.pch"; sourceTree = "<group>"; };
+		3A4DFFA4B94EA746E4A7F7A87E95C937 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = MDSoundRecorder/lib/libmp3lame.a; sourceTree = "<group>"; };
+		49CFD67ABECE1570E47431E411262070 /* LameTransformTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LameTransformTool.m; path = MDSoundRecorder/Classes/LameTransformTool.m; sourceTree = "<group>"; };
 		4D11ACED8CED39F17C1163DA886CE0B9 /* Pods-MDSoundRecorder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDSoundRecorder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5194B9F56047A26BB5085C245864E915 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = MDSoundRecorder/Classes/interf_enc.h; sourceTree = "<group>"; };
 		54B1985806E076062E69DE28DD8AA595 /* Pods-MDSoundRecorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDSoundRecorder_Example-dummy.m"; sourceTree = "<group>"; };
-		55C0298E38EE91E98D420162824F014E /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = MDSoundRecorder/lib/libmp3lame.a; sourceTree = "<group>"; };
 		55C1E8AEBEE82D2F49E2F0DAF849492D /* Pods-MDSoundRecorder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MDSoundRecorder_Tests.modulemap"; sourceTree = "<group>"; };
 		59D093D04112B1A849CD1ABD782FAC3E /* MDSoundRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDSoundRecorder.framework; path = MDSoundRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1FD25830867704363A35341BD1C67F /* Pods-MDSoundRecorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDSoundRecorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E1FD9D34BD3369E1C4EB754808AA032 /* Pods-MDSoundRecorder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDSoundRecorder_Example-Info.plist"; sourceTree = "<group>"; };
 		617C6E3C18CA726D1E54CE7D62B0D907 /* Pods-MDSoundRecorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDSoundRecorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		63C10B0F2CEBEA55C9341545C1AB5064 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = MDSoundRecorder/Classes/if_rom.h; sourceTree = "<group>"; };
-		68E9D7221E3DAF919D6D6F6816928542 /* MDSoundRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDSoundRecorder-prefix.pch"; sourceTree = "<group>"; };
-		78D2A2D28306C0A8B806446EDAB0EB6A /* MDSoundRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDSoundRecorder-dummy.m"; sourceTree = "<group>"; };
+		6DD6E99F53A41A6B0AD7745F15BA5A08 /* LameTransformTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LameTransformTool.h; path = MDSoundRecorder/Classes/LameTransformTool.h; sourceTree = "<group>"; };
+		7476B5E83C72E57A1072F314CAAD054F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		78CC1AB82A292D28F6AA27BD5D6A2105 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = MDSoundRecorder/Classes/lame.h; sourceTree = "<group>"; };
+		798011ED0FD9970412684CD8B9D07CDE /* WCAMRPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCAMRPlayer.h; path = MDSoundRecorder/Classes/WCAMRPlayer.h; sourceTree = "<group>"; };
 		807E8B2D676136AFDFA66D01E97458A4 /* Pods-MDSoundRecorder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDSoundRecorder_Tests-Info.plist"; sourceTree = "<group>"; };
-		840536FA7CA97887AA92059F59ED0AF7 /* VoiceConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoiceConverter.h; path = MDSoundRecorder/Classes/VoiceConverter.h; sourceTree = "<group>"; };
-		9634A0B49BEA605F0EBA5D23EB56D46E /* GCProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCProtocol.h; path = MDSoundRecorder/Classes/GCProtocol.h; sourceTree = "<group>"; };
-		9A9211F1752E33AC4DCA07A15148D3EE /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "MDSoundRecorder/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		9B92F0796D571B0259501A63E85ED8C9 /* Pods-MDSoundRecorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MDSoundRecorder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D725D006442983B49C8DC367753FDD4 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = MDSoundRecorder/Classes/interf_dec.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A51383F476AA74CFAEB6181CE76F574D /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = amrFileCodec.mm; path = MDSoundRecorder/Classes/amrFileCodec.mm; sourceTree = "<group>"; };
-		A682F582A69E1E19CD3565330558213C /* GCVoiceRecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCVoiceRecode.m; path = MDSoundRecorder/Classes/GCVoiceRecode.m; sourceTree = "<group>"; };
+		9E2F078FB2D885B58DF4C13B3D7E7D1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FEC415756D773508EB40CAA422CD1E4 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = MDSoundRecorder/Classes/interf_enc.h; sourceTree = "<group>"; };
+		A06E8DE1216DA1374297265055E27C3C /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "MDSoundRecorder/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		A0BAE2F66F2B133ADF19A39634581C91 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = MDSoundRecorder/Classes/dec_if.h; sourceTree = "<group>"; };
+		A1465C3E4C173B4E056A344377FC7259 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = amrFileCodec.mm; path = MDSoundRecorder/Classes/amrFileCodec.mm; sourceTree = "<group>"; };
+		AA260580ACCF6915896937CC9B60A25E /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amrFileCodec.h; path = MDSoundRecorder/Classes/amrFileCodec.h; sourceTree = "<group>"; };
 		AEC25A042FB9FDFD79F33BC77E6EFECB /* Pods-MDSoundRecorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MDSoundRecorder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B03876656DDD4F790685AEE5E64AC46F /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "MDSoundRecorder/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		B32ECF1F7060383E9EF04EBBADA1B2E4 /* Pods-MDSoundRecorder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MDSoundRecorder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B620A9D72971873EE0161249AF1D47BF /* VoiceConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = VoiceConverter.mm; path = MDSoundRecorder/Classes/VoiceConverter.mm; sourceTree = "<group>"; };
-		BE5BA556F7886F5095C0A7E146876945 /* GCVoiceRecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCVoiceRecode.h; path = MDSoundRecorder/Classes/GCVoiceRecode.h; sourceTree = "<group>"; };
-		BFA65F4E6FD1A1D1440B42EF611CD595 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = MDSoundRecorder/Classes/lame.h; sourceTree = "<group>"; };
-		CCCF634313E684B57906D144137CB66B /* MDSoundRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDSoundRecorder.modulemap; sourceTree = "<group>"; };
+		C98F395D71F8591243C2D6CE086308E6 /* MDSoundRecorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MDSoundRecorder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE7D70FC5DDB113B1774B2B2FE750D46 /* Pods-MDSoundRecorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDSoundRecorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2A90DFC0B68682FC78E9F42E6946712 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amrFileCodec.h; path = MDSoundRecorder/Classes/amrFileCodec.h; sourceTree = "<group>"; };
-		D814007D59C49E5A8DF9EB9434D05919 /* MDSoundRecorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDSoundRecorder-umbrella.h"; sourceTree = "<group>"; };
+		D6BEB917450B8DC280D25E6CCC11D40F /* GCProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCProtocol.h; path = MDSoundRecorder/Classes/GCProtocol.h; sourceTree = "<group>"; };
+		DCB24F3B49F079D2FB44FC28BCCD0421 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = MDSoundRecorder/Classes/if_rom.h; sourceTree = "<group>"; };
 		DD60350FFB71BAB79CFB130ABC9B52A6 /* Pods-MDSoundRecorder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDSoundRecorder_Tests-dummy.m"; sourceTree = "<group>"; };
-		DF6EFDE86CAA9FAB619D3DDE541FFDB6 /* MDSoundRecorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MDSoundRecorder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6727CBA487F7448CDAB154642015A09 /* Pods-MDSoundRecorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDSoundRecorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E69EFE48F33A464A31D06B9D66C77780 /* Pods-MDSoundRecorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MDSoundRecorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E7AB8E34947B9D5AC9D450F0CA06E5C3 /* LameTransformTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LameTransformTool.h; path = MDSoundRecorder/Classes/LameTransformTool.h; sourceTree = "<group>"; };
-		F42EA4C6A5CD199CB16DD3AE994609B4 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = MDSoundRecorder/Classes/interf_dec.h; sourceTree = "<group>"; };
 		F5FB83D46BB883C7BDDBCF20A40C1544 /* Pods-MDSoundRecorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MDSoundRecorder_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE995ADF7A3F12985778E653DB57750C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +113,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7823F1BCD999ECDF48AF4B2A00484B3 /* Frameworks */ = {
+		363585E6E3BE7D441D6EDA112435AE05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD81F92AACA3E1CC91D6BE49A00DE1D1 /* Foundation.framework in Frameworks */,
+				9809B1FB0376A27B62B972FB90ABABDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,18 +132,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5DB40E991374EE13725E4FFABAD924 /* Support Files */ = {
+		2BAC86CED050A4D14F5C92964844CC43 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCCF634313E684B57906D144137CB66B /* MDSoundRecorder.modulemap */,
-				4B6A3D6C31D88AE48D58FC0F628710D4 /* MDSoundRecorder.xcconfig */,
-				78D2A2D28306C0A8B806446EDAB0EB6A /* MDSoundRecorder-dummy.m */,
-				27004A87FA092E95BEA16293F1DC6949 /* MDSoundRecorder-Info.plist */,
-				68E9D7221E3DAF919D6D6F6816928542 /* MDSoundRecorder-prefix.pch */,
-				D814007D59C49E5A8DF9EB9434D05919 /* MDSoundRecorder-umbrella.h */,
+				41E569E808744E9A1445A446B5BEB69F /* MDSoundRecorder */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MDSoundRecorder";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		319B8970D4C6D9C796730745483DDD45 /* Targets Support Files */ = {
@@ -149,6 +147,20 @@
 				5B73EE3C112DABE1B57F84CEEA5CEA35 /* Pods-MDSoundRecorder_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3604DA63E55ACB719D7B634F4763F5D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				261214A76700B2BFE94D2A34FDB416C2 /* MDSoundRecorder.modulemap */,
+				0900DB77A54B71259467F4AB9D83C358 /* MDSoundRecorder.xcconfig */,
+				34D0D5C684235D57920559E13DBF756C /* MDSoundRecorder-dummy.m */,
+				22886C689D777A14EAC237BA1BC4524E /* MDSoundRecorder-Info.plist */,
+				393F045F5B56314998B1EA429DEEA194 /* MDSoundRecorder-prefix.pch */,
+				30109A4B5838F904052AE00DCD3A1C69 /* MDSoundRecorder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MDSoundRecorder";
 			sourceTree = "<group>";
 		};
 		3A2639460D6D7761497850F0B2E7953B /* Pods-MDSoundRecorder_Example */ = {
@@ -168,14 +180,31 @@
 			path = "Target Support Files/Pods-MDSoundRecorder_Example";
 			sourceTree = "<group>";
 		};
-		51367419F56076122358868AF73DE81B /* Frameworks */ = {
+		41E569E808744E9A1445A446B5BEB69F /* MDSoundRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				55C0298E38EE91E98D420162824F014E /* libmp3lame.a */,
-				9A9211F1752E33AC4DCA07A15148D3EE /* libopencore-amrnb.a */,
-				1C99381D2A7354FF5E92950CD34151F2 /* libopencore-amrwb.a */,
+				AA260580ACCF6915896937CC9B60A25E /* amrFileCodec.h */,
+				A1465C3E4C173B4E056A344377FC7259 /* amrFileCodec.mm */,
+				A0BAE2F66F2B133ADF19A39634581C91 /* dec_if.h */,
+				D6BEB917450B8DC280D25E6CCC11D40F /* GCProtocol.h */,
+				2DF71CA5E5CCB8909796C90717C2753D /* GCVoiceRecode.h */,
+				2F882F6B521A812250962CA5B883C7A9 /* GCVoiceRecode.m */,
+				DCB24F3B49F079D2FB44FC28BCCD0421 /* if_rom.h */,
+				9D725D006442983B49C8DC367753FDD4 /* interf_dec.h */,
+				9FEC415756D773508EB40CAA422CD1E4 /* interf_enc.h */,
+				78CC1AB82A292D28F6AA27BD5D6A2105 /* lame.h */,
+				6DD6E99F53A41A6B0AD7745F15BA5A08 /* LameTransformTool.h */,
+				49CFD67ABECE1570E47431E411262070 /* LameTransformTool.m */,
+				02FA5E8730EB39DFFDAF645690753D4C /* VoiceConverter.h */,
+				003D0726A70D65BFE333F30D1F95C185 /* VoiceConverter.mm */,
+				798011ED0FD9970412684CD8B9D07CDE /* WCAMRPlayer.h */,
+				06AC294B6B9EED18AC1921D8881A9EA7 /* WCAMRPlayer.m */,
+				5C299ECE47D8396237CFA9DF9AE64A42 /* Frameworks */,
+				CB65A4ED37F9CCD2719F87BDD130F1DB /* Pod */,
+				3604DA63E55ACB719D7B634F4763F5D2 /* Support Files */,
 			);
-			name = Frameworks;
+			name = MDSoundRecorder;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5B73EE3C112DABE1B57F84CEEA5CEA35 /* Pods-MDSoundRecorder_Tests */ = {
@@ -194,12 +223,14 @@
 			path = "Target Support Files/Pods-MDSoundRecorder_Tests";
 			sourceTree = "<group>";
 		};
-		5DD14D804EA1A3A42369F97E754A89D5 /* Development Pods */ = {
+		5C299ECE47D8396237CFA9DF9AE64A42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D39A900B2CD7E4920FB604BB301A6C4F /* MDSoundRecorder */,
+				3A4DFFA4B94EA746E4A7F7A87E95C937 /* libmp3lame.a */,
+				A06E8DE1216DA1374297265055E27C3C /* libopencore-amrnb.a */,
+				B03876656DDD4F790685AEE5E64AC46F /* libopencore-amrwb.a */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		829FC66AA193FDBAF2B56C6225A6A5A4 /* Products */ = {
@@ -220,11 +251,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CB65A4ED37F9CCD2719F87BDD130F1DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F078FB2D885B58DF4C13B3D7E7D1C /* LICENSE */,
+				C98F395D71F8591243C2D6CE086308E6 /* MDSoundRecorder.podspec */,
+				7476B5E83C72E57A1072F314CAAD054F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5DD14D804EA1A3A42369F97E754A89D5 /* Development Pods */,
+				2BAC86CED050A4D14F5C92964844CC43 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				829FC66AA193FDBAF2B56C6225A6A5A4 /* Products */,
 				319B8970D4C6D9C796730745483DDD45 /* Targets Support Files */,
@@ -239,41 +280,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D39A900B2CD7E4920FB604BB301A6C4F /* MDSoundRecorder */ = {
-			isa = PBXGroup;
-			children = (
-				D2A90DFC0B68682FC78E9F42E6946712 /* amrFileCodec.h */,
-				A51383F476AA74CFAEB6181CE76F574D /* amrFileCodec.mm */,
-				035A07DA0D60770CADDBA0864FF4A04E /* dec_if.h */,
-				9634A0B49BEA605F0EBA5D23EB56D46E /* GCProtocol.h */,
-				BE5BA556F7886F5095C0A7E146876945 /* GCVoiceRecode.h */,
-				A682F582A69E1E19CD3565330558213C /* GCVoiceRecode.m */,
-				63C10B0F2CEBEA55C9341545C1AB5064 /* if_rom.h */,
-				F42EA4C6A5CD199CB16DD3AE994609B4 /* interf_dec.h */,
-				5194B9F56047A26BB5085C245864E915 /* interf_enc.h */,
-				BFA65F4E6FD1A1D1440B42EF611CD595 /* lame.h */,
-				E7AB8E34947B9D5AC9D450F0CA06E5C3 /* LameTransformTool.h */,
-				2F5116FBC53683F269034B10EB82A10D /* LameTransformTool.m */,
-				840536FA7CA97887AA92059F59ED0AF7 /* VoiceConverter.h */,
-				B620A9D72971873EE0161249AF1D47BF /* VoiceConverter.mm */,
-				51367419F56076122358868AF73DE81B /* Frameworks */,
-				EFACB778F3A4D3CE2A73629C69B8B711 /* Pod */,
-				0E5DB40E991374EE13725E4FFABAD924 /* Support Files */,
-			);
-			name = MDSoundRecorder;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EFACB778F3A4D3CE2A73629C69B8B711 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FE995ADF7A3F12985778E653DB57750C /* LICENSE */,
-				DF6EFDE86CAA9FAB619D3DDE541FFDB6 /* MDSoundRecorder.podspec */,
-				2A7B5F954CAD3023424A0836B389F7F6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -285,24 +291,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94138619980B1F0AFD7220237EB24026 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E39571500F858954FD33C6A33B733E4 /* amrFileCodec.h in Headers */,
-				C7661EA8B35D3D8739CEFDB2378C82E6 /* dec_if.h in Headers */,
-				38D81AE1E5283072291AB4362A88DD0F /* GCProtocol.h in Headers */,
-				DC060BF1CC7A8FCD53F9DEA38CBC0410 /* GCVoiceRecode.h in Headers */,
-				E1F783D1F565EE9E7FEBF1D59B86EEE4 /* if_rom.h in Headers */,
-				75A094DE59ADA2A122CA1CAF251FC85F /* interf_dec.h in Headers */,
-				97A5110F98035F2EE5D499E2D163181F /* interf_enc.h in Headers */,
-				87C9DD08242BFDF505556C49EAE438F2 /* lame.h in Headers */,
-				F470BCAEF1D6C52491030954C9A6884E /* LameTransformTool.h in Headers */,
-				0B12580EF1A071483DFFB36BCBB778C5 /* MDSoundRecorder-umbrella.h in Headers */,
-				67CCA91D7EE8B9B3A99D68A1E9DF94DE /* VoiceConverter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB28212118F43F0EBE41C40370012A9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,17 +299,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFABEC97C0AD9D1ABCA4ABC6E00BE755 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A28F89902E6B89152195233264E73B4 /* amrFileCodec.h in Headers */,
+				0720918544BEA4181CC8AB170F92D4A2 /* dec_if.h in Headers */,
+				2D95F4CA1ACCF19436CF507795EB3860 /* GCProtocol.h in Headers */,
+				6FAE2EC97EA144D62E2DE09AF50524E6 /* GCVoiceRecode.h in Headers */,
+				1697BC70F3DE2525F84E0F461D272B09 /* if_rom.h in Headers */,
+				1B184AAC967EDC819C987C699D6202D3 /* interf_dec.h in Headers */,
+				26C1118B35FB3643E8538B5B3B7C86D4 /* interf_enc.h in Headers */,
+				383353BBBBDCE1128820131A7B05565D /* lame.h in Headers */,
+				B201ACB6B4F211FC61A71C877EB6C6E7 /* LameTransformTool.h in Headers */,
+				63BB0E9EE47EA7DF611DF2A564AFBBCE /* MDSoundRecorder-umbrella.h in Headers */,
+				BBE1421D2EBAA7DE75AD700ADE76F3E7 /* VoiceConverter.h in Headers */,
+				BD629898C025347CB57A6E9AFDAFEE51 /* WCAMRPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		68BEFAC980FFA29050991BFEF05D4E39 /* MDSoundRecorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB53A4435B26B916A5CC4E723F6C8127 /* Build configuration list for PBXNativeTarget "MDSoundRecorder" */;
+			buildConfigurationList = 62C77765E6E3A14C5F1BFA30F8AA0E9F /* Build configuration list for PBXNativeTarget "MDSoundRecorder" */;
 			buildPhases = (
-				94138619980B1F0AFD7220237EB24026 /* Headers */,
-				A9BF79D1536A28CC37C51E88D5E043C3 /* Sources */,
-				C7823F1BCD999ECDF48AF4B2A00484B3 /* Frameworks */,
-				499CB344CD6EDFFD3C7C76A117D52481 /* Resources */,
+				FFABEC97C0AD9D1ABCA4ABC6E00BE755 /* Headers */,
+				F37D19E28B32882E3F9E80DD57B4AC91 /* Sources */,
+				363585E6E3BE7D441D6EDA112435AE05 /* Frameworks */,
+				13E8E7F7F42ECB65129514D8F5BC0A24 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -399,7 +406,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		499CB344CD6EDFFD3C7C76A117D52481 /* Resources */ = {
+		13E8E7F7F42ECB65129514D8F5BC0A24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,15 +446,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9BF79D1536A28CC37C51E88D5E043C3 /* Sources */ = {
+		F37D19E28B32882E3F9E80DD57B4AC91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F216FE6D581031E5899066E8B4CAAACA /* amrFileCodec.mm in Sources */,
-				5FF160E8B5413CB5F25CC0C1E0BD4F68 /* GCVoiceRecode.m in Sources */,
-				9A72485EAB06302BA4E703FF9B554958 /* LameTransformTool.m in Sources */,
-				03D5F13557C7D24F7BE9E5A92556DFDF /* MDSoundRecorder-dummy.m in Sources */,
-				154CD7ACB46406E031C7A143BD92D612 /* VoiceConverter.mm in Sources */,
+				F604E6329AAA4B68781F152922C6A4AA /* amrFileCodec.mm in Sources */,
+				FB4402D062B881180E2BC1037F0B63DE /* GCVoiceRecode.m in Sources */,
+				291D72B5F24CA4BFC3102AFDF25A9E1C /* LameTransformTool.m in Sources */,
+				B07B940D3388B168BC9F63AFF35C821C /* MDSoundRecorder-dummy.m in Sources */,
+				D0DA7B5F03938A758DE913FE0A441DB0 /* VoiceConverter.mm in Sources */,
+				25589EDD6EBC106E6A50928DD730EC48 /* WCAMRPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,37 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2660DDF55C708B87830E6DA8B957C3E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B6A3D6C31D88AE48D58FC0F628710D4 /* MDSoundRecorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MDSoundRecorder/MDSoundRecorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder.modulemap";
-				PRODUCT_MODULE_NAME = MDSoundRecorder;
-				PRODUCT_NAME = MDSoundRecorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -658,38 +635,6 @@
 			};
 			name = Debug;
 		};
-		8F1992C50A87C289E0E70D426D2662AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B6A3D6C31D88AE48D58FC0F628710D4 /* MDSoundRecorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MDSoundRecorder/MDSoundRecorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder.modulemap";
-				PRODUCT_MODULE_NAME = MDSoundRecorder;
-				PRODUCT_NAME = MDSoundRecorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A343484C458623A9F125DB53B0BC3902 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 617C6E3C18CA726D1E54CE7D62B0D907 /* Pods-MDSoundRecorder_Tests.release.xcconfig */;
@@ -724,6 +669,38 @@
 			};
 			name = Release;
 		};
+		B0E917D57961BB3D2FAD127938008B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0900DB77A54B71259467F4AB9D83C358 /* MDSoundRecorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDSoundRecorder/MDSoundRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder.modulemap";
+				PRODUCT_MODULE_NAME = MDSoundRecorder;
+				PRODUCT_NAME = MDSoundRecorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BAB38F3D0820076D538ECFBE88725095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE7D70FC5DDB113B1774B2B2FE750D46 /* Pods-MDSoundRecorder_Tests.debug.xcconfig */;
@@ -751,6 +728,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB4B24C3936E56B1E9923DC249D102C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0900DB77A54B71259467F4AB9D83C358 /* MDSoundRecorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDSoundRecorder/MDSoundRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MDSoundRecorder/MDSoundRecorder.modulemap";
+				PRODUCT_MODULE_NAME = MDSoundRecorder;
+				PRODUCT_NAME = MDSoundRecorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -811,20 +819,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		62C77765E6E3A14C5F1BFA30F8AA0E9F /* Build configuration list for PBXNativeTarget "MDSoundRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B24C3936E56B1E9923DC249D102C7 /* Debug */,
+				B0E917D57961BB3D2FAD127938008B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		69D5F96D621FE2F9F4790A532C2F7E6A /* Build configuration list for PBXNativeTarget "Pods-MDSoundRecorder_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA995F536D541421DED23F74DB6B2D0B /* Debug */,
 				6F4A9FB6B3F3F91419B4C776ACD1A6D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB53A4435B26B916A5CC4E723F6C8127 /* Build configuration list for PBXNativeTarget "MDSoundRecorder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2660DDF55C708B87830E6DA8B957C3E8 /* Debug */,
-				8F1992C50A87C289E0E70D426D2662AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

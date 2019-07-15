@@ -1,5 +1,5 @@
 PODS:
-  - MDSoundRecorder (0.1.1)
+  - MDSoundRecorder (0.1.2)
 
 DEPENDENCIES:
   - MDSoundRecorder (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MDSoundRecorder: dfa505284d20fdfff69d75e943c2e42f80de514d
+  MDSoundRecorder: 89dc7dc83a02777deb26ad61f968d7568d8e68fb
 
 PODFILE CHECKSUM: aae641f315e2e788a1fd0142711dad409efcdfae
 

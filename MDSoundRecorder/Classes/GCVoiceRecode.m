@@ -182,7 +182,7 @@ void handleAudioData(void * __nullable inUserData,
     }else{
         [AVAudioSession.sharedInstance requestRecordPermission:^(BOOL granted) {
             if(granted){
-                dispatch_async(dispatch_get_global_queue(0, 0), doCatch);
+//                dispatch_async(dispatch_get_global_queue(0, 0), doCatch);
             }
         }];
     }
@@ -228,6 +228,7 @@ void convertToLittleEndian(unsigned int *data, int len)
 @property(nonatomic,copy) NSURL* path;
 @property(nonatomic,strong)NSFileHandle* file;
 @property(nonatomic,assign)uint32_t len;
+@property(nonatomic,assign)BOOL isOpen;
 @end
 @implementation GCVoiceSave
 
@@ -235,8 +236,11 @@ void convertToLittleEndian(unsigned int *data, int len)
 
 
 - (void)appendData:(NSData *)data {
-    [self.file writeData:data];
-    len += data.length;
+    if(self.isOpen){
+        [self.file writeData:data];
+        len += data.length;
+    }
+   
 }
 
 - (void)startSave:(NSData *)data {
@@ -247,10 +251,12 @@ void convertToLittleEndian(unsigned int *data, int len)
     [NSFileManager.defaultManager removeItemAtPath:p.path error:nil];
     [NSFileManager.defaultManager createFileAtPath:p.path contents:data attributes:nil];
     self.file = [NSFileHandle fileHandleForUpdatingAtPath:p.path];
+    self.isOpen = true;
     [self.file seekToEndOfFile];
 }
 
 - (NSURL*)stopSave:(int)sampleRate bitRate:(int) br{
+    self.isOpen = false;
     [self.file closeFile];
     self.file = [NSFileHandle fileHandleForWritingAtPath:self.path.path];
     [self.file seekToFileOffset:4];
