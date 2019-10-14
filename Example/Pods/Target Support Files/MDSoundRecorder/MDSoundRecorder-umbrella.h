@@ -20,6 +20,7 @@
 #import "lame.h"
 #import "LameTransformTool.h"
 #import "VoiceConverter.h"
+#import "GCSoundWaveView.h"
 #import "WCAMRPlayer.h"
 
 FOUNDATION_EXPORT double MDSoundRecorderVersionNumber;

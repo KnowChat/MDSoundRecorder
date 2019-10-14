@@ -9,10 +9,12 @@
 #import "MDViewController.h"
 #import <MDSoundRecorder-umbrella.h>
 #import <AVFoundation/AVFoundation.h>
+#import "GCSoundWaveView.h"
 @interface MDViewController ()<AVAudioPlayerDelegate>
 @property (nonatomic,nullable) GCVoiceRecode * recoder;
 @property (nonatomic,nonnull) NSURL * url;
 @property (nonatomic,nullable) AVAudioPlayer* player;
+@property (weak, nonatomic) IBOutlet GCSoundWaveView *wave;
 @property (nonatomic,nullable) WCAMRPlayer* amrPlay;
 @end
 
@@ -21,8 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.recoder = [[GCVoiceRecode alloc] initWithSampleRate:8400 bitRate:16 channel:1];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.recoder = [[GCVoiceRecode alloc] initWithSampleRate:6000 bitRate:16 channel:1];
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,7 +34,7 @@
 - (IBAction)start:(id)sender {
     self.recoder.save = [[GCVoiceSave alloc] init];
     [self.recoder startRecordWithHandle:^(int16_t * _Nonnull t, int l) {
-        
+        [self.wave catchBuffer:t c:l];
     } soundFile:^(NSURL * _Nonnull url) {
         self.url = url;
     }];
